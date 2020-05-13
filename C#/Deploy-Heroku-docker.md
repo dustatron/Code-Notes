@@ -1,6 +1,23 @@
 # Deploy to Heroku
 
-These notes were based on [this Article](https://medium.com/faun/deploy-dotnet-core-api-docker-container-with-mysql-on-heroku-ed387eab4222)
+---
+
+Table of contents
+
+1. [Useful Docker Commands](#Useful Docker Commands)
+
+2. [Before you get started](#Before you get started)
+
+3. [Change your Database](#Change your Database)
+
+4. These notes were based on [this Article](https://medium.com/faun/deploy-dotnet-core-api-docker-container-with-mysql-on-heroku-ed387eab4222)
+
+   - This artical's instructions did not work correctly. So I sourced other info from a few sources. 
+   - These notes are based on all of my research. 
+
+   
+
+---
 
 #### Useful Docker Commands
 
@@ -131,9 +148,11 @@ Go to [Heroic.com](https://www.heroku.com/) and create an account and 'Create Ne
 
     
 
-## Chnage your Database
+## Change your Database
 
 ---
+
+The best database to use with Heroku is Heroku Postgress. The following are instructions on how to change out your projects database.
 
 ### Posgress
 

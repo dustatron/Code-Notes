@@ -1,3 +1,10 @@
+Table of contents
+
+1. [install](#Install)
+2. [Firebase Config](#Firebase Config)
+3. [Interact with Firebase](#Interact with Firebase)
+4. [Deploy](#Deploy)
+
 # Fireebase
 
 ## Install
