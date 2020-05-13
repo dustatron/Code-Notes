@@ -1,6 +1,6 @@
 # Bootstrap	
 
-[Getting started](https://react-bootstrap.github.io/getting-started/introduction/)
+[Getting started](https://react-bootstrap.github.io/getting-started/introduction/) or Install Bootstrap
 
 1. install command
 
