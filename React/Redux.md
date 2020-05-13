@@ -1,5 +1,61 @@
 # Redux Notes
 
+## Install
+
+[Documentation](https://redux.js.org/)
+
+[Get Redux Dev Tools: ]( https://chrome.google.com/webstore/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd?hl=en )- add configuration in index.js of your project when you create your store:
+
+```shell
+npm install redux@4.0.5 react-redux@7.1.3
+```
+
+1. Set-up index
+
+   ```javascript
+   import { createStore } from 'redux';
+   import reducer from './reducers/ticket-list-reducer';
+   import { Provider } from 'react-redux';
+   
+   const store = createStore(reducer); 
+   
+   const store = createStore(
+     reducer, 
+     window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()
+   );
+   
+   ```
+
+2. other commands
+
+   ```javascipt
+   createStore()
+   getState()
+   dispatch()
+   ```
+
+## Wire up Firebase
+
+---
+
+```javascript
+useFirestoreConnect([ { collection: 'surveys' }, { collection: 'submissions' } ]);
+
+
+firestoreConnect(() => [
+{
+collection: 'states',
+doc: 'CA',
+subcollections: [
+{ collection: 'cities', doc: 'SF' },
+{ collection: 'zips' }
+]
+}
+])
+```
+
+
+
 ## Dev Readout
 
 ```javascript
@@ -9,6 +65,10 @@ const store = createStore(
 );
 
 ```
+
+
+
+
 
 ###  Update prop in state 
 
