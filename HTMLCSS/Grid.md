@@ -9,7 +9,7 @@
 3. [grid-template-areas](#grid-template-areas)
 4. [grid-template](#grid-template)
 5. [column gap row gap grid column gap grid row gap](#column-gap-row-gap-grid-column-gap-grid-row-gap)
-6. [gap grid gap](#gap grid-gap)
+6. [gap grid gap](#gap-grid-gap)
 7. [justify-items](#justify-items)
 8. [align-items](#align-items)
 9. [place-items](#place-items)
