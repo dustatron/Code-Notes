@@ -4,7 +4,7 @@
 
 Table of contents
 
-1. [Useful Docker Commands](#docker-commands)
+1. [Useful Docker Commands](#Useful-Docker-Commands)
 
 2. [Before you get started](#Before-you-get-started)
 
@@ -19,7 +19,7 @@ Table of contents
 
 ---
 
-#### Useful Docker Commands{#docker-commands}
+#### Useful Docker Commands
 
 list all running dockers
 
@@ -47,7 +47,7 @@ docker rm $(docker ps -a -q)
 
 
 
-## Before you get started {#Before-you-get-started}
+## Before you get started 
 
 Go to [Heroic.com](https://www.heroku.com/) and create an account and 'Create New App' by click on the 'New' button in the top right. 
 
@@ -148,7 +148,7 @@ Go to [Heroic.com](https://www.heroku.com/) and create an account and 'Create Ne
 
     
 
-## Change your Database{#Change-your-Database}
+## Change your Database
 
 ---
 
