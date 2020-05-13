@@ -2,24 +2,7 @@
 
 ---
 
-#### Table of Conents
-
-1. [display](#display)
-2. [grid-template-columns grid-template-rows](#grid-template-columns grid-template-rows)
-3. [grid-template-areas](#grid-template-areas)
-4. [grid-template](#grid-template)
-5. [column-gap row-gap grid-column-gap grid-row-gap](#column-gap row-gap grid-column-gap grid-row-gap)
-6. [gap grid-gap](#gap grid-gap)
-7. [justify-items](#justify-items)
-8. [align-items](#align-items)
-9. [place-items](#place-items)
-10. [align-content](#align-content)
-11. [place-content](#place-content)
-12. [grid-auto-flow](#grid-auto-flow)
-13. [grid](#grid-)
-14. [Properties for the Children (Grid Items)](#Properties for the Children (Grid Items))
-
-
+[TOC]
 
 [Document](https://css-tricks.com/snippets/css/complete-guide-grid/)
 

@@ -4,6 +4,8 @@
 
 ## Quick Links
 
+---
+
 - [AAW Board](https://awwapp.com/)
 
 - [Booke's Notes on functional Programng](https://github.com/BrookeZK/FP_examples)
@@ -12,6 +14,8 @@
 - [Classes vs functional Components](https://overreacted.io/how-are-function-components-different-from-classes/)
 
 ## TOOLS
+
+---
 
 - [Deploy to gh-pages](https://dev.to/yuribenjamin/how-to-deploy-react-app-in-github-pages-2a1f)
 - [Free APIs](https://github.com/public-apis/public-apis)
@@ -23,7 +27,9 @@
 - [Epicodus UI course](https://www.learnhowtoprogram.com/user-interfaces/web-design-process)
 - 
 
-### UI libraries
+## UI libraries
+
+---
 
 #### A bootstrap alternative 
 
@@ -38,12 +44,16 @@
 
 ## Animagtion Library
 
+---
+
 - [Pop motion](https://popmotion.io/)
 - [React spring](https://www.react-spring.io/)
 - [Pose](https://popmotion.io/pose/)
 - [D3](https://d3js.org/)
 
 ## Regex
+
+---
 
 [http://www.regular-expressions.info/ ](http://www.regular-expressions.info/)
 
@@ -54,6 +64,8 @@ https://eloquentjavascript.net/
 https://github.com/getify/You-Dont-Know-JS/blob/2nd-ed/README.md
 
 ## Videos to watch
+
+---
 
 Women of React 2020 conference 
 

@@ -2,7 +2,7 @@
 
 ---
 
-#### Table of Contents
+## Table of Contents
 
 1. [Display](#display)
 2. [flex-wrap](#flex-wrap)
