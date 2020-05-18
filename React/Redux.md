@@ -7,7 +7,7 @@
 [Get Redux Dev Tools: ]( https://chrome.google.com/webstore/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd?hl=en )- add configuration in index.js of your project when you create your store:
 
 ```shell
-npm install redux@4.0.5 react-redux@7.1.3
+npm install --save redux@4.0.5 react-redux@7.1.3
 ```
 
 1. Set-up index

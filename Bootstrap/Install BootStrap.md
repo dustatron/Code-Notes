@@ -5,7 +5,7 @@
 1. install command
 
 ```shell
-npm install react-bootstrap bootstrap
+npm install --save react-bootstrap bootstrap
 ```
 
 2. import this into index.js

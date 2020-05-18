@@ -12,8 +12,9 @@ Table of contents
 1. type this in your project
 
 ```shell
-npm install firebase@7.8.0
-npm install react-redux-firebase@3.1.1 redux-firestore@0.12.0
+npm install --save firebase@7.8.0
+npm install --save react-redux-firebase@3.1.1 redux-firestore@0.12.0
+npm install --save react-firebaseui
 ```
 
 2. setup firebase tools

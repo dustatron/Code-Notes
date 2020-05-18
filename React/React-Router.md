@@ -4,8 +4,8 @@
 
 install react router
 
-```
-npm install react-router-dom@5.1.2
+```shell
+npm install --save react-router-dom@5.1.2
 ```
 
 Redirecting
