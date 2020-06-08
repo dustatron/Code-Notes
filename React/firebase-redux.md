@@ -7,6 +7,10 @@ Table of contents
 
 # Fireebase
 
+[master docs]( https://github.com/prescottprue/react-redux-firebase/tree/master/docs)
+
+[simple docs](http://react-redux-firebase.com/)
+
 ## Install
 
 1. type this in your project

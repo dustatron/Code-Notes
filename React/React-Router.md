@@ -2,6 +2,8 @@
 
 [Router Docs](https://reacttraining.com/react-router/web/example/basic)  | [Epicodus Lesson](https://www.learnhowtoprogram.com/react/react-with-nosql/react-router)
 
+[Nest Router](https://tylermcginnis.com/react-router-nested-routes/)
+
 install react router
 
 ```shell
