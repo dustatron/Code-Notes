@@ -8,7 +8,80 @@
 
 ```shell
 npm install --save redux@4.0.5 react-redux@7.1.3
+npm install --save redux-devtools-extension
+npm install --save redux-thunk
 ```
+
+## OPTION 1
+
+_Create a store file and import it into your App.js_
+
+Create a file at the root of /src 'Store.js'
+
+_**src/Store.js**_
+
+```javascript
+  
+import { createStore, applyMiddleware } from 'redux';
+import { composeWithDevTools } from 'redux-devtools-extension';
+import thunk from 'redux-thunk';
+import rootReducer from './reducers';
+
+const intialState = {};
+
+const middleWare = [thunk];
+
+const store = createStore(
+  rootReducer,
+  intialState,
+  composeWithDevTools(applyMiddleware(...middleWare))
+);
+
+export default store;
+```
+
+Make a reducer and actions folder in your src '/reducers' + '/actions'
+
+_**'/reducers' + '/actions'**_
+
+```shell
+mkdir reducers actions
+
+```
+
+Root reducer 
+
+_**/reducers/index.js**_
+
+```javascript
+import { combineReducers } from 'redux';
+import auth from './auth';
+
+export default combineReducers({ auth });
+
+```
+
+In Index.js import Redux and the setup files.
+_**src/Index.js**_
+
+```javascript
+// Redux
+import { Provider } from 'react-redux';
+import store from './Store';
+
+ReactDOM.render(
+  <React.StrictMode>
+    <Provider store={Store}>
+      <App />
+    </Provider>
+  </React.StrictMode>,
+  document.getElementById('root')
+);
+```
+
+
+
+## OPTION 2
 
 1. Set-up index
 
@@ -28,7 +101,7 @@ npm install --save redux@4.0.5 react-redux@7.1.3
 
 2. other commands
 
-   ```javascipt
+   ```javascript
    createStore()
    getState()
    dispatch()
